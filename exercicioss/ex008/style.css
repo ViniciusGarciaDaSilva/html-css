@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'space';
+    src: url('fonts/SpaceCrusaders.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor4: #2FA866;
+    --cor5: #1A5C37;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 10px;
+}
+
+
+header {
+   background-color: #1A5C37;
+   border-radius: 15px;
+   padding: 20px;
+    
+}
+
+.principal1 {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font: normal normal 3em 'space';
+    
+}
+
+.texto1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font: normal normal 1.1em 'Nunito Sans', sans-serif;
+
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(229, 255, 0);
+    padding: 50px;
+}
+
+nav {
+    background-color: #1A5C37;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 15px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ancoranav {
+        
+        border: 1px solid black ;
+        box-shadow: 1px 1px 1px black;
+        border-radius: 10px;
+        text-decoration: none;
+        
+        color: white;
+        padding: 5px 5px 5px 5px;
+        font: normal normal 1.1em 'Nunito Sans', sans-serif;
+}
+
+.ancoranav:hover {
+    background-color: #83E1AD;
+}
+
+body{
+    background-image: linear-gradient(to right, #2FA866, #3DDc84);
+    padding-top: px;
+}
+
+.principal2 {
+    text-align: center;
+    color: #3DDC84;
+    padding-top: 40px;
+    font: normal normal 2.5em 'space';
+    
+}
+
+.texto2 {
+    text-align: justify;
+    padding-top: 20px;
+    color: black;
+    font: normal normal 1.1em 'Nunito Sans', sans-serif;
+    text-indent: 20px;
+}
+
+.secundario {
+    font: normal normal 1.8em 'space';
+    text-align: left;
+    padding: 20px;
+    color: #3DDC84;
+}
+
+.destaque {
+    color: #3DDc84;
+}
+
+.imagem01 {
+    padding: 20px;
+}
+
+.video{
+    padding: 50px;
+}
+
+.caixa {
+    background-color: #1A5C37;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.terceario {
+    font: normal normal 1.3em 'space';
+    background-color: #3DDC84;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.texto3 {
+    font: normal normal 1.1em 'Nunito Sans', sans-serif;
+    padding: 15px;
+}
+
+.caixa2 {
+    padding: 0px 50px 15px 50px;
+}
+
+.rodape {
+    padding: 20px 0px 0px 0px;
+}
+
+.texto4 {
+    font: normal normal 2em 'Nunito Sans', sans-serif;
+    text-align: center;
+    background-color: #1A5C37;
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+@font-face {
+    font-family:'Space';
+    src: url('fonts/SpaceCrusaders.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+}
+
+#principal {
+    font-family: 'Space';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    color: white;
+}
+
+.secundario {
+    font-family: 'Space';
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.texto {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    color: white;
+}

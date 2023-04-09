@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(0, 102, 0);
+    padding: 0px 0px 20px 0px;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+
+#principal {
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font: normal normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+}
+
+.texto {
+    margin: auto;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menu {
+    text-align: left;
+    padding: 50px 0px 0px 90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ancora {
+    text-decoration: none;
+    font: normal normal 1.2em 'sans-serif';
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 4px;  
+}
+
+.ancora:hover {
+    background-color: gray;
+}
+
+body {
+   
+}

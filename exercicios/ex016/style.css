@@ -1,0 +1,32 @@
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #008F8C, #023535);
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    border-radius: 10px; /*cria um arredondamento das quinas*/
+    box-shadow: 5px 5px 15px #00fffb;
+    padding: 10px;
+    margin: auto; /*sempre centraliza no centro da tela*/
+}
+
+h1 {
+    color: #0FC2C0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0fc2bf27;/* cria um sombra por baixo*/
+}
+
+h2 {
+    color: #0CABA8;
+}
+
+p {
+    text-align: justify;
+}
