@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebelas respnsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        tr::nth-child(even){
+            background-color: aliceblue;
+        }
+        div#container{ 
+            overflow-x: auto; /* para criar uma rolagem somente na tabela*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quidem dignissimos fugiat ullam, nam sequi nihil ut natus aspernatur doloribus, atque laborum magnam deserunt, ratione velit. Rem eos consequatur dolor.</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas resposivas</caption>
+            <thead>
+                    <tr>Produto</tr>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Oct</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+               </thead>
+               <tbody>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>11</td>
+                    <td>33</td>
+                    <td>12</td>
+                    <td>11</td>
+                    <td>16</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>04</td>
+                    <td>08</td>
+                    <td>91</td>
+               </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
